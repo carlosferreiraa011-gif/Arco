@@ -1,0 +1,21 @@
+ARCO NA FLORESTA - VERSÃO PARA CELULAR
+======================================
+Todos os arquivos estão soltos (sem pastas) para facilitar o envio pelo celular.
+São 8 arquivos: index.html, manifest.webmanifest, sw.js e 5 imagens .png.
+Eles precisam ficar JUNTOS, no mesmo lugar.
+
+PUBLICAR (GitHub Pages, grátis)
+1. Extraia o zip no app Arquivos do celular.
+2. Crie uma conta em github.com.
+3. Crie um repositório novo: nome "arco", marcado como Public.
+4. Add file > Upload files: selecione os 8 arquivos e toque em Commit changes.
+5. Settings > Pages > Source: "Deploy from a branch", branch main, pasta / (root). Salve.
+6. Espere 1 a 2 minutos. O link será https://SEU-USUARIO.github.io/arco/
+
+INSTALAR
+- Android (Chrome): abra o link > menu de três pontinhos > "Instalar app".
+- iPhone (Safari): abra o link > Compartilhar > "Adicionar à Tela de Início".
+
+ATUALIZAR DEPOIS
+Troque os arquivos no repositório e aumente o número em sw.js:
+  var CACHE = 'arco-na-floresta-v2';  (para v3, v4...)
